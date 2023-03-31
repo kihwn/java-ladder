@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ladder.LadderGameTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-30T11:58:58" hostname="hyewon-ui-MacBookPro.local" time="0.018">
+  <properties/>
+  <testcase name="랜덤 테스트" classname="ladder.LadderGameTest" time="0.018"/>
+  <system-out><![CDATA[Before
+0 0 0 1*-1 
+0 0 1 -1 0 
+0 1 -1 1 -1 
+0 0 0 0 0 
+
+After
+0 0 0 1 -1*
+0 0 1 -1 0 
+0 1 -1 1 -1 
+0 0 0 0 0 
+
+Before
+0 0 0 1 -1 
+0 0 1 -1 0*
+0 1 -1 1 -1 
+0 0 0 0 0 
+
+After
+0 0 0 1 -1 
+0 0 1 -1 0*
+0 1 -1 1 -1 
+0 0 0 0 0 
+
+Before
+0 0 0 1 -1 
+0 0 1 -1 0 
+0 1 -1 1 -1*
+0 0 0 0 0 
+
+After
+0 0 0 1 -1 
+0 0 1 -1 0 
+0 1 -1 1*-1 
+0 0 0 0 0 
+
+Before
+0 0 0 1 -1 
+0 0 1 -1 0 
+0 1 -1 1 -1 
+0 0 0 0*0 
+
+After
+0 0 0 1 -1 
+0 0 1 -1 0 
+0 1 -1 1 -1 
+0 0 0 0*0 
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
